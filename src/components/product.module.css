@@ -1,0 +1,54 @@
+.ProductContainer {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.ProductImages {
+    display: flex;
+    gap: 10px;
+    max-width: 750px;
+}
+
+.allImages {
+    max-width: 50px;
+}
+
+.allImages img {
+    margin-bottom: 10px;
+}
+
+.selectedImage {
+    flex-grow: 1;
+    width: 500px;
+}
+
+
+
+.ProductHeader > h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.ProductHeader > p {
+    font-size: medium;
+}
+
+.ProductAttributes {
+    margin-top: 20px
+}
+
+.ProductAttribute {
+    margin-bottom: 20px;
+}
+
+.ProductAttributeItems {
+    display: flex;
+    gap: 10px;
+}
+
+.ProductAttributeItems p {
+    cursor: pointer;
+}
