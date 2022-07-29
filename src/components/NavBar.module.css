@@ -1,0 +1,42 @@
+.NavBarContainerStyle{
+
+    display: flex; 
+    justify-content: space-between; 
+
+}
+
+.NavBarStyle{
+
+    display: flex; 
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    padding-left: 4rem;
+    padding-right: 4rem; 
+    align-items: center; 
+    gap: 1rem;  
+
+}
+
+.NavBarStyleTwo{
+
+
+padding-top: 1.25rem;
+padding-bottom: 1.25rem; 
+padding-left: 4rem;
+padding-right: 4rem; 
+cursor: pointer;
+
+}
+.NavItemStyle1{
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    cursor: pointer; 
+    
+}
+.NavItemStyle2 {
+    color: #059669; 
+    border-bottom-width: 4px; 
+    border-color: #059669;
+
+     
+}

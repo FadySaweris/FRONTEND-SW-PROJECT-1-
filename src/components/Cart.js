@@ -1,7 +1,7 @@
 import React from 'react'
 import { gql, useQuery } from '@apollo/client'
 
-import cartStyle from './cart2.module.css'
+import cartStyle from './Cart.module.css'
 import { useState } from 'react'
 
 const allCategories = gql`

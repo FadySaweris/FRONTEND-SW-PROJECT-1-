@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./app";
 
 import "semantic-ui-css/components/icon.min.css";
-import "./assets/css/tailwind.css";
+// import "./assets/css/tailwind.css";
 
 const client = new ApolloClient({
   uri: process.env.REACT_APP_APOLLO_SERVER,
